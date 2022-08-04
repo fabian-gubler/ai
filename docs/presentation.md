@@ -14,7 +14,41 @@
 
 Note: Try to use Readings as Source
 
-### User First Approach
+### Fintech
+#### Information: Business Idea
+
+**General**
+- Topic: Trading Insights using Machine Learning in order to filter important information out of huge volume of data
+- Purpose: Support existing, experienced trader with an advantage
+- Handout: Inform investment decisions by analyzing financial information to forecast business, industry or economic conditions
+
+**From Lecture**
+- Jobs - Common theme: Not replacing but supporting
+- What type of ML System is best to solve this problem?
+- Virtuous Cycle -> Unfair advantage (Arbitrage)
+- Operating Model: Easy to see the potential value creation, however, the implementation is difficult and competitive
+
+**Details**
+- Insights using ML going through information (such as reports)
+- Search Engines are similar, in the sense that they aggregate content and show you what you need to see
+- What problem is trying to be solved?
+- Different Levels: Information Gathering, Recommendations, Real Time applications 
+- Only for big firms (i.e. Alladin) or accessible for everyone
+	- Unfair advantage?
+- Existing technologies and Future Possibilities
+- If everyone has the same technology is there actually value being created? Level playing field.
+
+**Technologies**
+- Supervised Learning (Previously Good Trades)
+- Reinforced Learning (Punish Bad Trades)
+- Unsupervised Learning (Get Context of an undiscovered field)
+
+**Similar**
+- Loans (Small Loans from persons instead of firms)
+- Trade Bots (Asset Management) for Personal Finance
+
+
+### User First Approach (aka case against Surveillance Capitalism)
 
 **Content**
 
