@@ -1,0 +1,30 @@
+:root > * {
+	--md-default-fg-color:      #2E3440;
+
+}
+
+:root {
+	font-size: 1.5em;
+}
+
+h1, 
+h2, 
+h3,
+.md-sidebar,
+.md-header {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+	font-size: 1.5em !important;
+}
+
+h1, h2 {
+	font-weight: 600 !important;
+
+}
+
+[data-md-color-scheme="slate"] {
+	--md-default-fg-color:      #D8DEE9;
+	--md-default-bg-color:		#2E3440;
+}

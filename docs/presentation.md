@@ -1,112 +1,88 @@
 # Presentation
 
-# General Information
-- 15 Mins
-- Max. 15 Slides
-- Lottery to avoid same topic
+## Todo
+- Bild high res
+- Virtuous Cycle
+- Animate implementation / activities
 
-# Possibilities
+## Abfolge
+J: Context & Problem
+F: Magical Triangle
+J: What (2)
+F: Who & How (2)
+J: Why & Swot
+F: Outlook (Long-Term Vision)
 
-1. Business Idea for the AI
-2. Propose Policy solution(s) to AI disruptions (Problems AI produces)
+## Todo
 
-## **Favorites**
+Done Tuesday
 
-Note: Try to use Readings as Source
+- Determine whether there still content missing (compare both works to group breefing)
 
-### Fintech
-#### Information: Business Idea
+Start Tuesday -> Finish Wednesday
 
-**General**
-- Topic: Trading Insights using Machine Learning in order to filter important information out of huge volume of data
-- Purpose: Support existing, experienced trader with an advantage
-- Handout: Inform investment decisions by analyzing financial information to forecast business, industry or economic conditions
+- Create Visualizations (Mockups)
+- Create Slides (Structure -> Content -> Put into slide)
 
-**From Lecture**
-- Jobs - Common theme: Not replacing but supporting
-- What type of ML System is best to solve this problem?
-- Virtuous Cycle -> Unfair advantage (Arbitrage)
-- Operating Model: Easy to see the potential value creation, however, the implementation is difficult and competitive
+Thursday
 
-**Details**
-- Insights using ML going through information (such as reports)
-- Search Engines are similar, in the sense that they aggregate content and show you what you need to see
-- What problem is trying to be solved?
-- Different Levels: Information Gathering, Recommendations, Real Time applications 
-- Only for big firms (i.e. Alladin) or accessible for everyone
-	- Unfair advantage?
-- Existing technologies and Future Possibilities
-- If everyone has the same technology is there actually value being created? Level playing field.
+- Practice (Suggestion: 1 hour before Lecture begins)
 
-**Technologies**
-- Supervised Learning (Previously Good Trades)
-- Reinforced Learning (Punish Bad Trades)
-- Unsupervised Learning (Get Context of an undiscovered field)
+Note: Don't forget to learn concepts before the Quiz
 
-**Similar**
-- Loans (Small Loans from persons instead of firms)
-- Trade Bots (Asset Management) for Personal Finance
+## Tasks
+- Find Connections to Lecture
+- Google Docs with Slide content
 
+## [1-2] Business Model Navigator
+Transition
 
-### User First Approach (aka case against Surveillance Capitalism)
+- In the following we would like to present you our business proposition which aims to solve this problem
 
-**Content**
+Purpose
 
-- Lex Fridman's Philosophy of Recommender Systems
-	- Go away (Press of a button, like data never existed)
-	- Transparency of Data usage (That is easily accessible)
-	- Personalization of Algorithm's objective function (Intellectual Pursuit, Entertainment, Curiosity etc. )
-- Objective Functions
-- Data Brokers (Personal Data Companion)
+- For you to get a comprehensive view, our business model will answer four main questions, as presented in this figure
+- These 4 questions answer the key drivers of the success of our business model
+- Only when having all these questions covered can we ensure a competitive advantage and long term success
+- Holistical view
+- This ensures a consistency of the business model and prevents us from missing an important part
 
-**Approach**
+Who
 
+- At the center of the business model design lies the customer
+- Being aware of the target customer is a key element in creating a successful business model and lies at the heart of common problem of startup which is ensuring of product-market fit
 
-- Provide Context
-- Firms incentives
-- Present Key Characteristics desirable to Users
-- Consequence: Policy Solutions that would achieve
-- Risks: Negative Consequences for Supply Side
+What
 
-### Governance of Artificial Intelligence
-- Hook: Are we doomed? Is there a silver lining to it?
-- AI, Viruses, and Nuclear -> Massive Damage
-- AI much smaller barriers than other existential weapons
-- Fermi Paradox
-- What do we do when it comes to a point where we cannot control the development
-- Even with prohibition, the necessary toolset (i.e. computer) will always be there
-- Cybersecurity Nation State Threat Actors
+- What describes what value is being offered to the customer
+- Here the goal is to formulate the value proposition which is the unique value we want to offer to the customer
 
-### Cybersecurity and AI
-- Economic Opportunities
-- Threat Actors and Potential Exploits
-- This is how they tell me the world ends
-- Interesting Market Dynamic of black market
-- black hat hackers protected by their government
-- Impacts: Industrial Systems (Power Grid, Nuclear, Internet), Intelligence Gathering (Military or Intellectual Property)
+How
 
-### Difficulties of Regulation
-- What does a free market lead to?
-- Nations outcompeting other nations with laissez faire regulation (e.g. china direct cooperation with their companies)
-- Incentives of Companies (Data collection at zero cost, makes sense without even having a use case)
-- Social and Economic Dilemmas
-	- Negative Consequences for optimizing engagement
-	- Be at a disadvantage when not collecting data
+- The How contains all the activities and processes of the company to build and distribute the chosen value proposition to the target group
+- Here we answer the questions of how our value proposition is driven by artificial intelligence and the mechanisms that are needed
+- Further, by looking at dealing with data and how the customer interacts with the product we point out that a good artificial intelligence model does not suffice to create a successful product
 
-**Ideas**
+Why
 
-- AI Surveillance
-	- China
-- AI-related job losses
-	- Universal Basic Income
-- AI algorithmic bias
-	- Data on Males -> Not good predicting Women
-- Robotics
-- Fintech regulation
-- Competition policy for Big Tech
-	- 5 Firms that control vast economic ressources
-- Digital trade barriers
-	- GDPR
-- US-EU digital trade relations
+- The fourth dimension is why, which refers to the profit mechanism of the business model
+- Here we will provide both answers to the issue of financing our business model in the short term, and the long term strategy to compete and strive in the financial market
 
+Transition
+- Without further ado let's build up step by step this interesting model by answering these demanding questions
 
+## [1] Who: Customer Groups & Key Partners
+- Product differs on the complexity of customer needs
+
+- Key Partners
+	- Smaller Pictures
+	- [Supply] Government Institutions: e.g. SEC (U.S. Securities and Exchange Commision)
+	- [External Companies] Computing & Database Storage: Cloud Platforms (e.g. AWS)
+
+## What: Produktvorstellung
+- Key Characteristics: Flexible, Attractive, Convenient, Fast
+- Go through Customer Journey
+
+## How: AI Implementation (1. Overview, 2. Deep Dive)
+
+## Outlook (Long-Term vision)

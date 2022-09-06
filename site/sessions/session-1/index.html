@@ -1,0 +1,370 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.3.0, mkdocs-material-8.3.8" name="generator"/>
+<title>1: Introduction to AI - Summer School Course</title>
+<link href="../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Gelasio:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Gelasio";--md-code-font:"Roboto Mono"}</style>
+<link href="../../css/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>html.glightbox-open { overflow: initial; height: 100%; }</style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#1-introduction-to-ai">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Summer School Course" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Summer School Course">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Summer School Course
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              1: Introduction to AI
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="" data-md-color-media="" data-md-color-primary="teal" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="" data-md-color-media="" data-md-color-primary="teal" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+</form>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Summer School Course" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Summer School Course">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Summer School Course
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Course Information
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../presentation/">
+        Presentation
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          Sessions
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Sessions" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Sessions
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../exam-notes/">
+        Exam notes
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+        1: Introduction to AI
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-2/">
+        2: Data and the Global Digital Economy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-3/">
+        3: Machine Learning
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-4/">
+        4: AI Implementation In Business
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-5/">
+        5: Implications of The AI Economy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-6/">
+        6: Governance Of The Global Digital Economy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-7/">
+        7: Will Countries Cooperate Over Digital Globalization?
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="1-introduction-to-ai">1: Introduction to AI</h1>
+<ul>
+<li>Introduction to AI and related technologies</li>
+<li>Recent advances in AI</li>
+<li>Group Presentation Lottery</li>
+</ul>
+<h1 id="content">Content</h1>
+<ul>
+<li>General overview &amp; trends of AI</li>
+</ul>
+<h1 id="presentation">Presentation</h1>
+<p><strong>Big Ideas List</strong></p>
+<ol>
+<li>Huge increases in computing power and big data have catapulted AI forward in the past 5 years</li>
+<li>Deep Learning, a form of AI, is now able to complete many complex tasks</li>
+<li>The expansion of deep learning tools to nearly all industries contribuets to an exponential increase in data flows across borders</li>
+<li>AI, a general purpose technology, is disrupting business processes, labor markets, and global economic relations</li>
+</ol>
+<p><strong>Data -&gt; AI -&gt; Business value</strong></p>
+<ul>
+<li>AI informs Decision making (using data analysis)</li>
+<li>New business models (new forms of value creation)</li>
+<li>Personalized products and individualized predictions</li>
+</ul>
+<p><strong>Milestones</strong></p>
+<ul>
+<li>Games: DeepBlue (Chess) -&gt; DeepMind (Go)<ul>
+<li>Go thought to be impossible for AI to outcompete humans (amount of possibilities)</li>
+</ul>
+</li>
+<li>Information: IBM Watson (Jeopardy)</li>
+<li>Intelligence: Passing Turing test</li>
+<li>Future: Moments where we realize computers are better at the task than I am</li>
+</ul>
+<p><strong>Moore's Law</strong></p>
+<ul>
+<li>Reason for surprising innovation of digital technology</li>
+<li>Machine Learning: Simple tasks but a lot of computations</li>
+<li>Moore's law: Computational power doubling every 18 months</li>
+<li>Amara's Law: Humans difficult to grasp exponential growth</li>
+</ul>
+<p><strong>How does it work?</strong></p>
+<ul>
+<li>Definition: AI is prediction and optimization technology using data-fueled statistical estimation</li>
+<li>Computer ability to learn without being explicitly progammed (too many set of rules)</li>
+<li>e.g. Image Recognition too difficult with rules based programming</li>
+<li>Evolution: AI -&gt; ML -&gt; Deep Learning (DL)</li>
+</ul>
+<p><strong>Deep Learning</strong></p>
+<ul>
+<li>Deep Learning: Recognition not through rules, but by practice and feedback</li>
+<li>Common: Learning algorithm is trained using labeled examples by adjusting weights to reduce prediction error</li>
+<li>Image Recognition Layers: 1 (Recognise pixels and shapes), 2 (Complex shapes and features), 3 (Which shapes used for identifiation)</li>
+</ul>
+<p><strong>Context</strong></p>
+<ul>
+<li>AI Complex tasks: Reasoning, Knowledge, Planning, Communication, Perception</li>
+<li>Ant Financial: Giving out loans predicting credibility based on data from alibaba (lowest error rate)</li>
+</ul>
+<h1 id="required-readings">Required Readings</h1>
+<h2 id="the-business-of-artificial-intelligence">The Business of Artificial Intelligence</h2>
+<h3 id="introduction">Introduction</h3>
+<ul>
+<li><strong>General Purpose Technologies:</strong> Economic Growth through invention of general purpose technologies. Companies leveraging these innovations achieved high profits (Examples: Steam Engine, Internet). Will be used in every industry, doing various tasks different in their nature.</li>
+<li><strong>Disruption Potential:</strong> AI as the most important general purpose technology with the potential to have a transformational impact on a similar scale to prior revolutions (e.g. combustion engine).</li>
+<li><strong>Current Issues:</strong> Unrealistic expectations and bottleneck in management and implementation</li>
+</ul>
+<h3 id="what-can-ai-do-today">What can AI do today?</h3>
+<ul>
+<li><strong>Two Broad Areas:</strong> Perception (Voice Recognition, Computer Vision) &amp; Cognition (Games, Fraud and Malware Detection, Stock Trading)</li>
+<li><strong>State:</strong> ML systems are replacing older processes and are superior at many tasks that were once done best by humans</li>
+<li><strong>Characteristics</strong>: Specific Tasks (Lack Context and Understanding), Learning by examples (not explicitly programmed)</li>
+</ul>
+<h3 id="categories">Categories</h3>
+<ul>
+<li><strong>Supervised learning</strong>: Give many examples (ref. Training Set) of correct answers to a particular problem (Mapping X -&gt; Y)</li>
+<li><strong>Unsupervised learning</strong>: Solve given objective (e.g. pattern recognition) </li>
+<li><strong>Reinforcement learning:</strong> Specify goal (objective function), describe environment and list allowable actions</li>
+</ul>
+<h3 id="opportunities">Opportunities</h3>
+<ul>
+<li><strong>Three Levels:</strong> Occupations (Radiology), Business Processes (Amazon Fulfillment Center), Business Models (Recommender Systems)</li>
+</ul>
+<h3 id="risks-and-limits">Risks and Limits</h3>
+<ul>
+<li><strong>Low interprepability:</strong> Difficulties understanding decision-processes. MAchines know more than theyc an tell us<ul>
+<li>Hidden biases (dataset)</li>
+<li>Statistical Truths Based (Lack Verifiability)</li>
+<li>Error Correction (Difficult due to complex structure)</li>
+</ul>
+</li>
+<li><strong>Limit:</strong> Computers are good for answering questions not for asking them.</li>
+<li><strong>Disruption:</strong> Companies too slow to adapt will be outcompeted</li>
+</ul>
+<h2 id="the-ai-factory">The AI Factory</h2>
+<h3 id="introduction_1">Introduction</h3>
+<ul>
+<li><strong>Definition:</strong> Decision engine that treats decision making as an industrial process. Converting data into predictions and choices to guide (or automate) a variety of operational actions.</li>
+</ul>
+<figure>
+<p><a class="glightbox" href="../img/1-AI_Factory_Virtuous_Cycle.png"><img alt="Image title" src="../img/1-AI_Factory_Virtuous_Cycle.png" width="300"/></a>
+</p>
+<figcaption>Virtous Cycle</figcaption>
+</figure>
+<ul>
+<li><strong>Search Engines</strong>: The more searches, the better the predictions, and the better the predictions, the more the search engine is used.</li>
+<li><strong>Experimentation</strong>: Hypotheses can be tested on a statistically relevant sample of users to derive conclusions</li>
+</ul>
+<figure>
+<p><a class="glightbox" href="../img/1-AI_Factory_Components.png"><img alt="Image title" src="../img/1-AI_Factory_Components.png" width="500"/></a>
+</p>
+<figcaption>AI Factory Components</figcaption>
+</figure>
+<p>If the data is the fuel that powers the AI factory, then infrastructure makes up the pipes that deliver the fuel, and the algorithms are the machines that do the work. The experimentation platform, in turn, controls the valves that connect new fuel, pipes, and machines to existing operational systems.</p>
+<h3 id="machine-learning-algorithms">Machine Learning Algorithms</h3>
+<p><strong>Supervised learning</strong></p>
+<ul>
+<li><strong>Objective:</strong> Rely on expert-labeled dataset, mapping input (X) to outcome (Y)</li>
+<li>Training dataset (determines parameters of model) and Validation dataset (test accuracy of model)</li>
+<li>Examples: Spam Detection, Image Recognition, Recommendations by Clustering</li>
+</ul>
+<p><strong>Unsupervised Learning</strong></p>
+<ul>
+<li><strong>Objective:</strong> Discover insights in data with assumptions</li>
+<li><strong>Three Types</strong><ul>
+<li>Clustering: Data into groups </li>
+<li>Association rule mining: creating associations to e.g. recommend similar products</li>
+<li>Anomaly detection: Whether or not new item fits prior patterns</li>
+</ul>
+</li>
+<li>Find "natural" grouping in data (No labeling)</li>
+<li>Examples: Anomaly detection</li>
+</ul>
+<p><strong>Reinforcement Learing</strong></p>
+<ul>
+<li>Requires only starting point and objective function</li>
+<li>Dynamic tradeoff between exploration &amp; exploitation</li>
+<li>Examples: Recommender Systems, Games</li>
+</ul>
+<h3 id="experimentation-platform">Experimentation Platform</h3>
+<ul>
+<li><strong>A/B Testing</strong> Expose set of users to change (known as treatment) and compare to users with usual experience (known as control). Then compare the differences.</li>
+<li><strong>Continuity</strong> Continuous feedback between new insights and validation or explanation</li>
+</ul>
+<h3 id="software-infrastructure">Software Infrastructure</h3>
+<figure>
+<p><a class="glightbox" href="../img/1-AI_Factory_Data_Platform.png"><img alt="Image title" src="../img/1-AI_Factory_Data_Platform.png" width="500"/></a>
+</p>
+<figcaption>Virtous Cycle</figcaption>
+</figure>
+<ul>
+<li><strong>Data platform:</strong> Provides structure for developers to build deploy and execute AI applications</li>
+<li><strong>Publish-subscribe:</strong> Make clean and consistent data available to applications through consistent interfaces (APIs)</li>
+<li><strong>Importance</strong> Develop a secure and centralized data platform to focus on data governance</li>
+</ul>
+<h2 id="huge-foundation-models-are-turbocharging-ai-progress">Huge ‘Foundation Models’ are Turbocharging AI Progress.</h2>
+<ul>
+<li>Previously assumed that increasing data will lead to diminishing return. However, with models like BERT the reverse was observed (increasing returns)</li>
+<li>ML models based on neural networks (connections)</li>
+<li>Weights of connections between viirtual neurons are developed through trial and error, as model is trained with input - output mapping</li>
+</ul>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: Exam notes" class="md-footer__link md-footer__link--prev" href="../exam-notes/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              Exam notes
+            </div>
+</div>
+</a>
+<a aria-label="Next: 2: Data and the Global Digital Economy" class="md-footer__link md-footer__link--next" href="../session-2/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              2: Data and the Global Digital Economy
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.sections"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.0238f547.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "width": "100%", "height": "auto", "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>

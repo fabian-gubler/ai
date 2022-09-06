@@ -1,0 +1,283 @@
+
+<!DOCTYPE html>
+
+<html class="no-js" lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width,initial-scale=1" name="viewport"/>
+<link href="../../assets/images/favicon.png" rel="icon"/>
+<meta content="mkdocs-1.3.0, mkdocs-material-8.3.8" name="generator"/>
+<title>3: Machine Learning - Summer School Course</title>
+<link href="../../assets/stylesheets/main.1d29e8d0.min.css" rel="stylesheet"/>
+<link href="../../assets/stylesheets/palette.cbb835fc.min.css" rel="stylesheet"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css?family=Gelasio:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback" rel="stylesheet"/>
+<style>:root{--md-text-font:"Gelasio";--md-code-font:"Roboto Mono"}</style>
+<link href="../../css/extra.css" rel="stylesheet"/>
+<script>__md_scope=new URL("../..",location),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+<link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>html.glightbox-open { overflow: initial; height: 100%; }</style><script src="../../assets/javascripts/glightbox.min.js"></script></head>
+<body data-md-color-accent="" data-md-color-primary="teal" data-md-color-scheme="default" dir="ltr">
+<script>var palette=__md_get("__palette");if(palette&&"object"==typeof palette.color)for(var key of Object.keys(palette.color))document.body.setAttribute("data-md-color-"+key,palette.color[key])</script>
+<input autocomplete="off" class="md-toggle" data-md-toggle="drawer" id="__drawer" type="checkbox"/>
+<input autocomplete="off" class="md-toggle" data-md-toggle="search" id="__search" type="checkbox"/>
+<label class="md-overlay" for="__drawer"></label>
+<div data-md-component="skip">
+<a class="md-skip" href="#3-machine-learning">
+          Skip to content
+        </a>
+</div>
+<div data-md-component="announce">
+</div>
+<header class="md-header" data-md-component="header">
+<nav aria-label="Header" class="md-header__inner md-grid">
+<a aria-label="Summer School Course" class="md-header__button md-logo" data-md-component="logo" href="../.." title="Summer School Course">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+<label class="md-header__button md-icon" for="__drawer">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2Z"></path></svg>
+</label>
+<div class="md-header__title" data-md-component="header-title">
+<div class="md-header__ellipsis">
+<div class="md-header__topic">
+<span class="md-ellipsis">
+            Summer School Course
+          </span>
+</div>
+<div class="md-header__topic" data-md-component="header-topic">
+<span class="md-ellipsis">
+            
+              3: Machine Learning
+            
+          </span>
+</div>
+</div>
+</div>
+<form class="md-header__option" data-md-component="palette">
+<input aria-label="Switch to dark mode" class="md-option" data-md-color-accent="" data-md-color-media="" data-md-color-primary="teal" data-md-color-scheme="default" id="__palette_1" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_2" hidden="" title="Switch to dark mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a4 4 0 0 0-4 4 4 4 0 0 0 4 4 4 4 0 0 0 4-4 4 4 0 0 0-4-4m0 10a6 6 0 0 1-6-6 6 6 0 0 1 6-6 6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+<input aria-label="Switch to light mode" class="md-option" data-md-color-accent="" data-md-color-media="" data-md-color-primary="teal" data-md-color-scheme="slate" id="__palette_2" name="__palette" type="radio"/>
+<label class="md-header__button md-icon" for="__palette_1" hidden="" title="Switch to light mode">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 18c-.89 0-1.74-.2-2.5-.55C11.56 16.5 13 14.42 13 12c0-2.42-1.44-4.5-3.5-5.45C10.26 6.2 11.11 6 12 6a6 6 0 0 1 6 6 6 6 0 0 1-6 6m8-9.31V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69Z"></path></svg>
+</label>
+</form>
+</nav>
+</header>
+<div class="md-container" data-md-component="container">
+<main class="md-main" data-md-component="main">
+<div class="md-main__inner md-grid">
+<div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Navigation" class="md-nav md-nav--primary" data-md-level="0">
+<label class="md-nav__title" for="__drawer">
+<a aria-label="Summer School Course" class="md-nav__button md-logo" data-md-component="logo" href="../.." title="Summer School Course">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"></path></svg>
+</a>
+    Summer School Course
+  </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../..">
+        Course Information
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../../presentation/">
+        Presentation
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+<input checked="" class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" id="__nav_3" type="checkbox"/>
+<label class="md-nav__link" for="__nav_3">
+          Sessions
+          <span class="md-nav__icon md-icon"></span>
+</label>
+<nav aria-label="Sessions" class="md-nav" data-md-level="1">
+<label class="md-nav__title" for="__nav_3">
+<span class="md-nav__icon md-icon"></span>
+          Sessions
+        </label>
+<ul class="md-nav__list" data-md-scrollfix="">
+<li class="md-nav__item">
+<a class="md-nav__link" href="../exam-notes/">
+        Exam notes
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-1/">
+        1: Introduction to AI
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-2/">
+        2: Data and the Global Digital Economy
+      </a>
+</li>
+<li class="md-nav__item md-nav__item--active">
+<input class="md-nav__toggle md-toggle" data-md-toggle="toc" id="__toc" type="checkbox"/>
+<a class="md-nav__link md-nav__link--active" href="./">
+        3: Machine Learning
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-4/">
+        4: AI Implementation In Business
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-5/">
+        5: Implications of The AI Economy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-6/">
+        6: Governance Of The Global Digital Economy
+      </a>
+</li>
+<li class="md-nav__item">
+<a class="md-nav__link" href="../session-7/">
+        7: Will Countries Cooperate Over Digital Globalization?
+      </a>
+</li>
+</ul>
+</nav>
+</li>
+</ul>
+</nav>
+</div>
+</div>
+</div>
+<div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc">
+<div class="md-sidebar__scrollwrap">
+<div class="md-sidebar__inner">
+<nav aria-label="Table of contents" class="md-nav md-nav--secondary">
+</nav>
+</div>
+</div>
+</div>
+<div class="md-content" data-md-component="content">
+<article class="md-content__inner md-typeset">
+<h1 id="3-machine-learning">3: Machine Learning</h1>
+<h1 id="required-readings">Required Readings</h1>
+<h2 id="guest-speaker-ai-ethics-policy-and-regulation">Guest Speaker: AI Ethics - Policy and Regulation</h2>
+<ul>
+<li>AI drives inequality</li>
+<li>Firms that can't keep up, fall behind very quickly</li>
+<li>AI as a geopolitical weapon</li>
+<li>Talks (Landscape) -&gt; Putting it down on paper (Whitepapers) -&gt; Legislation</li>
+</ul>
+<h3 id="business-implementation">Business Implementation</h3>
+<ul>
+<li>Reputation Damage, Fines, Missed commercial opportunities</li>
+<li>Potential to need to redo the model from scratch</li>
+<li>Trust as a business differentiator</li>
+</ul>
+<h3 id="operationalize">Operationalize</h3>
+<ul>
+<li>Governance (Define AI &amp; policies, Current AI Catalogue, Risk Framework)</li>
+<li>Education (People who use the tool e.g. HR)</li>
+<li>Compliance (Controls, Auditing, Monitor)</li>
+</ul>
+<h2 id="machine-learning">Machine Learning</h2>
+<h3 id="what-is-machine-learning">What Is Machine Learning?</h3>
+<h4 id="statistics">Statistics</h4>
+<ul>
+<li><strong>Standard Deviation</strong>: Average distance from the mean</li>
+<li><strong>Normal Distribution</strong>: Bell curve (e.g. IQ scores)</li>
+<li><strong>Distribution Differences</strong>: Left / Right skew and Variance</li>
+<li><strong>Bayes' Theorem</strong>: Answers given test result how probable that it is a true positive (instead of false positive)</li>
+<li><strong>Pearson Correlation</strong>: Shows strength of relationship between two variables from 1 to -1 (+0.7 is strong relation)</li>
+</ul>
+<h3 id="the-machine-learning-process">The Machine Learning Process</h3>
+<ol>
+<li><strong>Data Order</strong>: Randomize the order of the data, so that algorithm doesn't detect patterns</li>
+<li><strong>Choose a Model</strong>: Selection of algorithm</li>
+<li><strong>Train the Model</strong>: Training Dataset, Algorithm calculates weights for each factor</li>
+<li><strong>Evaluate the Model</strong>: Using Test Dataset, verify if the algorithm is accurate</li>
+<li><strong>Fine-Tune the Model</strong>: Adjust parameters to see if results get better</li>
+</ol>
+<h2 id="deep-learning">Deep Learning</h2>
+<h4 id="explanation">Explanation</h4>
+<ul>
+<li>Subfield of machine learning</li>
+<li>In addition to Machine learning, analyzes all the data (pixel by pixel)</li>
+<li>Finds relataionships using neural networks</li>
+</ul>
+<h4 id="neural-nets">Neural Nets</h4>
+<ul>
+<li>Function that includes units having values and weights (indicate relative importance)</li>
+</ul>
+<h3 id="neural-network-types">Neural Network Types</h3>
+<h4 id="fully-connected">Fully Connected</h4>
+<p>All neurons have connections from layer to layer</p>
+<h4 id="recurrent-neural-network-rnn">Recurrent Neural Network (RNN)</h4>
+<p>Reasoning from previous experiencing containing loops and allowing information to be stored</p>
+<h4 id="convolution-neural-network-cnn">Convolution Neural Network (CNN)</h4>
+<p>Process Images in Stages (Convolution), e.g. when fully connected is impossible</p>
+<h4 id="generative-adversarial-network-gan">Generative adversarial network (GAN)</h4>
+<ul>
+<li>Generator: This neural network creates many new creations (photos, sentences etc.)</li>
+<li>Discriminator: Looks at the creations and determines which one is real</li>
+<li>Adjustments: With these two results, new model would change the creations to make them as realistic as possible</li>
+</ul>
+<h4 id="hardware">Hardware</h4>
+<ul>
+<li>For deep learning GPUs have been the primary choice</li>
+<li>Custom needs lead to custom hardware (e.g. Google's TPU)</li>
+</ul>
+<h4 id="drawbacks-and-worries">Drawbacks and worries</h4>
+<ul>
+<li><strong>black Box</strong>: Explainable AI - Millions of parameters involving many hidden layers</li>
+<li><strong>Data</strong>: Vast amount of Data needed</li>
+<li><strong>Causation</strong>: All about finding correlation, not causation</li>
+</ul>
+</article>
+</div>
+</div>
+</main>
+<footer class="md-footer">
+<nav aria-label="Footer" class="md-footer__inner md-grid">
+<a aria-label="Previous: 2: Data and the Global Digital Economy" class="md-footer__link md-footer__link--prev" href="../session-2/" rel="prev">
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"></path></svg>
+</div>
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Previous
+              </span>
+              2: Data and the Global Digital Economy
+            </div>
+</div>
+</a>
+<a aria-label="Next: 4: AI Implementation In Business" class="md-footer__link md-footer__link--next" href="../session-4/" rel="next">
+<div class="md-footer__title">
+<div class="md-ellipsis">
+<span class="md-footer__direction">
+                Next
+              </span>
+              4: AI Implementation In Business
+            </div>
+</div>
+<div class="md-footer__button md-icon">
+<svg viewbox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"></path></svg>
+</div>
+</a>
+</nav>
+<div class="md-footer-meta md-typeset">
+<div class="md-footer-meta__inner md-grid">
+<div class="md-copyright">
+</div>
+</div>
+</div>
+</footer>
+</div>
+<div class="md-dialog" data-md-component="dialog">
+<div class="md-dialog__inner md-typeset"></div>
+</div>
+<script id="__config" type="application/json">{"base": "../..", "features": ["header.autohide", "navigation.sections"], "search": "../../assets/javascripts/workers/search.b97dbffb.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version.title": "Select version"}}</script>
+<script src="../../assets/javascripts/bundle.0238f547.min.js"></script>
+<script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "width": "100%", "height": "auto", "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom"});})</script></body>
+</html>

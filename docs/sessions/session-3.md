@@ -36,7 +36,6 @@
 4. **Evaluate the Model**: Using Test Dataset, verify if the algorithm is accurate
 5. **Fine-Tune the Model**: Adjust parameters to see if results get better
 
-
 ## Deep Learning 
 
 #### Explanation
